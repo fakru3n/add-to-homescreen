@@ -1,0 +1,23 @@
+{
+  "name": "add-to-homescreen",
+  "version": "1.0.0",
+  "description": "**Repository is now archived**",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakru3n/add-to-homescreen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakru3n/add-to-homescreen/issues"
+  },
+  "homepage": "https://github.com/fakru3n/add-to-homescreen#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
