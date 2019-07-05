@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const path = require('path');
 const port = process.env.PORT || 6000;
-const dirPath = express.static(path.join(__dirname, '/demo'));
+const dirPath = express.static(path.join(__dirname, '/demos'));
 app.use('/', dirPath);
 
 app.get('/', (req, res) => {
